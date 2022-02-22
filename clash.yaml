@@ -86,7 +86,7 @@ proxies:
   - {"name":"US_367+_13_34Mb_79","server":"172.99.190.188","port":8090,"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
   - {"name":"ZZ_779+_11_23Mb_80","server":"169.197.141.91","port":9101,"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
   - {"name":"US_555+_12_41Mb_81","server":"172.99.190.149","port":5001,"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"ZZ_727+_12_31Mb_82","server":"134.195.196.200","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"反俄大聯盟-ZZ_727+_12_31Mb_82","server":"134.195.196.200","port":8008,"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
   - {"name":"US_636+_+5_68Mb_83","server":"172.99.190.149","port":5004,"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
   - {"name":"Relay_🇪🇪EE-🇯🇵JP_175+_32_07Mb_84","server":"os2-5.sstr-api.xyz","port":443,"type":"trojan","password":"MhPG7g9x2Etb4Hspsb"}
   - {"name":"US_2592","server":"172.99.190.188","port":8118,"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
@@ -177,7 +177,7 @@ proxy-groups:
       - US_367+_13_34Mb_79
       - ZZ_779+_11_23Mb_80
       - US_555+_12_41Mb_81
-      - ZZ_727+_12_31Mb_82
+      - 反俄大聯盟-ZZ_727+_12_31Mb_82
       - US_636+_+5_68Mb_83
       - Relay_🇪🇪EE-🇯🇵JP_175+_32_07Mb_84
       - US_2592
@@ -268,7 +268,7 @@ proxy-groups:
       - US_367+_13_34Mb_79
       - ZZ_779+_11_23Mb_80
       - US_555+_12_41Mb_81
-      - ZZ_727+_12_31Mb_82
+      - 反俄大聯盟-ZZ_727+_12_31Mb_82
       - US_636+_+5_68Mb_83
       - Relay_🇪🇪EE-🇯🇵JP_175+_32_07Mb_84
       - US_2592
@@ -359,7 +359,7 @@ proxy-groups:
       - US_367+_13_34Mb_79
       - ZZ_779+_11_23Mb_80
       - US_555+_12_41Mb_81
-      - ZZ_727+_12_31Mb_82
+      - 反俄大聯盟-ZZ_727+_12_31Mb_82
       - US_636+_+5_68Mb_83
       - Relay_🇪🇪EE-🇯🇵JP_175+_32_07Mb_84
       - US_2592
@@ -449,7 +449,7 @@ proxy-groups:
       - US_367+_13_34Mb_79
       - ZZ_779+_11_23Mb_80
       - US_555+_12_41Mb_81
-      - ZZ_727+_12_31Mb_82
+      - 反俄大聯盟-ZZ_727+_12_31Mb_82
       - US_636+_+5_68Mb_83
       - Relay_🇪🇪EE-🇯🇵JP_175+_32_07Mb_84
       - US_2592
@@ -539,7 +539,7 @@ proxy-groups:
       - US_367+_13_34Mb_79
       - ZZ_779+_11_23Mb_80
       - US_555+_12_41Mb_81
-      - ZZ_727+_12_31Mb_82
+      - 反俄大聯盟-ZZ_727+_12_31Mb_82
       - US_636+_+5_68Mb_83
       - Relay_🇪🇪EE-🇯🇵JP_175+_32_07Mb_84
       - US_2592
@@ -629,7 +629,7 @@ proxy-groups:
       - US_367+_13_34Mb_79
       - ZZ_779+_11_23Mb_80
       - US_555+_12_41Mb_81
-      - ZZ_727+_12_31Mb_82
+      - 反俄大聯盟-ZZ_727+_12_31Mb_82
       - US_636+_+5_68Mb_83
       - Relay_🇪🇪EE-🇯🇵JP_175+_32_07Mb_84
       - US_2592
@@ -736,7 +736,7 @@ proxy-groups:
       - US_367+_13_34Mb_79
       - ZZ_779+_11_23Mb_80
       - US_555+_12_41Mb_81
-      - ZZ_727+_12_31Mb_82
+      - 反俄大聯盟-ZZ_727+_12_31Mb_82
       - US_636+_+5_68Mb_83
       - Relay_🇪🇪EE-🇯🇵JP_175+_32_07Mb_84
       - US_2592
