@@ -5,12 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇪🇪EE-🇯🇵JP_429-很快, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: ✓Relay_🇪🇪EE-🇯🇵JP_429-很快, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
   - {name: "|10.52Mb", server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_425-很快, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: ✓Relay_🇪🇪EE-🇯🇵JP_425-很快, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
   - {name: Relay_ |30.92Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
   - {name: "|10.68Mb", server: 106.180.225.69, port: 1443, type: trojan, password: 7x42LetRa0, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_428-很快-很快, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: ✓Relay_🇪🇪EE-🇯🇵JP_428-很快-很快, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
   - {name: Relay_ |14.40Mb, server: www.darkwater.xyz, port: 41759, type: trojan, password: ixkIc4mCzH, sni: www.darkwater.xyz, skip-cert-verify: true, udp: true}
   - {name: "|22.19Mb", server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
   - {name: "|21.61Mb", server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
@@ -93,12 +93,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇪🇪EE-🇯🇵JP_429-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_429-很快
       - "|10.52Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_425-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_425-很快
       - Relay_ |30.92Mb
       - "|10.68Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
       - Relay_ |14.40Mb
       - "|22.19Mb"
       - "|21.61Mb"
@@ -180,12 +180,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇪🇪EE-🇯🇵JP_429-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_429-很快
       - "|10.52Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_425-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_425-很快
       - Relay_ |30.92Mb
       - "|10.68Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
       - Relay_ |14.40Mb
       - "|22.19Mb"
       - "|21.61Mb"
@@ -268,12 +268,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇪🇪EE-🇯🇵JP_429-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_429-很快
       - "|10.52Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_425-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_425-很快
       - Relay_ |30.92Mb
       - "|10.68Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
       - Relay_ |14.40Mb
       - "|22.19Mb"
       - "|21.61Mb"
@@ -368,12 +368,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇪🇪EE-🇯🇵JP_429-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_429-很快
       - "|10.52Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_425-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_425-很快
       - Relay_ |30.92Mb
       - "|10.68Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
       - Relay_ |14.40Mb
       - "|22.19Mb"
       - "|21.61Mb"
@@ -460,12 +460,12 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇪🇪EE-🇯🇵JP_429-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_429-很快
       - "|10.52Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_425-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_425-很快
       - Relay_ |30.92Mb
       - "|10.68Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
       - Relay_ |14.40Mb
       - "|22.19Mb"
       - "|21.61Mb"
@@ -547,12 +547,12 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇪🇪EE-🇯🇵JP_429-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_429-很快
       - "|10.52Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_425-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_425-很快
       - Relay_ |30.92Mb
       - "|10.68Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
       - Relay_ |14.40Mb
       - "|22.19Mb"
       - "|21.61Mb"
@@ -635,12 +635,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇪🇪EE-🇯🇵JP_429-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_429-很快
       - "|10.52Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_425-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_425-很快
       - Relay_ |30.92Mb
       - "|10.68Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
       - Relay_ |14.40Mb
       - "|22.19Mb"
       - "|21.61Mb"
@@ -732,12 +732,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇪🇪EE-🇯🇵JP_429-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_429-很快
       - "|10.52Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_425-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_425-很快
       - Relay_ |30.92Mb
       - "|10.68Mb"
-      - Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
+      - ✓Relay_🇪🇪EE-🇯🇵JP_428-很快-很快
       - Relay_ |14.40Mb
       - "|22.19Mb"
       - "|21.61Mb"
