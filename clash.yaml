@@ -15,7 +15,7 @@ proxies:
   - {name: "|22.19Mb", server: gz1.52168.xyz, port: 1111, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
   - {name: "|21.61Mb", server: gz1.52168.xyz, port: 1116, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
   - {name: Relay_ |21.38Mb, server: v.mumi.bid, port: 10121, type: vmess, uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v.mumi.bid}, udp: true}
-  - {name: Relay_🇯🇵 JP-🇯🇵JP_775[速度快], server: 1.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 1.earths.team, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇯🇵 JP-🇯🇵JP_775-速度快, server: 1.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 1.earths.team, skip-cert-verify: true, udp: true}
   - {name: US_2869, server: oioooo.tk, port: 443, type: trojan, password: 54ea0e82-64e4-486c-848c-8b95be9f0010, sni: oioooo.tk, skip-cert-verify: true, udp: true}
   - {name: Relay_ |26.07Mb, server: chun2.515223.xyz, port: 43992, type: vmess, uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇺🇸US_2753, server: 7.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 7.earths.team, skip-cert-verify: true, udp: true}
@@ -103,7 +103,7 @@ proxy-groups:
       - "|22.19Mb"
       - "|21.61Mb"
       - Relay_ |21.38Mb
-      - Relay_🇯🇵 JP-🇯🇵JP_775[速度快]
+      - Relay_🇯🇵 JP-🇯🇵JP_775-速度快
       - US_2869
       - Relay_ |26.07Mb
       - Relay_🇺🇸US-🇺🇸US_2753
@@ -190,7 +190,7 @@ proxy-groups:
       - "|22.19Mb"
       - "|21.61Mb"
       - Relay_ |21.38Mb
-      - Relay_🇯🇵 JP-🇯🇵JP_775[速度快]
+      - Relay_🇯🇵 JP-🇯🇵JP_775-速度快
       - US_2869
       - Relay_ |26.07Mb
       - Relay_🇺🇸US-🇺🇸US_2753
@@ -278,7 +278,7 @@ proxy-groups:
       - "|22.19Mb"
       - "|21.61Mb"
       - Relay_ |21.38Mb
-      - Relay_🇯🇵 JP-🇯🇵JP_775[速度快]
+      - Relay_🇯🇵 JP-🇯🇵JP_775-速度快
       - US_2869
       - Relay_ |26.07Mb
       - Relay_🇺🇸US-🇺🇸US_2753
@@ -378,7 +378,7 @@ proxy-groups:
       - "|22.19Mb"
       - "|21.61Mb"
       - Relay_ |21.38Mb
-      - Relay_🇯🇵 JP-🇯🇵JP_775[速度快]
+      - Relay_🇯🇵 JP-🇯🇵JP_775-速度快
       - US_2869
       - Relay_ |26.07Mb
       - Relay_🇺🇸US-🇺🇸US_2753
@@ -470,7 +470,7 @@ proxy-groups:
       - "|22.19Mb"
       - "|21.61Mb"
       - Relay_ |21.38Mb
-      - Relay_🇯🇵 JP-🇯🇵JP_775[速度快]
+      - Relay_🇯🇵 JP-🇯🇵JP_775-速度快
       - US_2869
       - Relay_ |26.07Mb
       - Relay_🇺🇸US-🇺🇸US_2753
@@ -557,7 +557,7 @@ proxy-groups:
       - "|22.19Mb"
       - "|21.61Mb"
       - Relay_ |21.38Mb
-      - Relay_🇯🇵 JP-🇯🇵JP_775[速度快]
+      - Relay_🇯🇵 JP-🇯🇵JP_775-速度快
       - US_2869
       - Relay_ |26.07Mb
       - Relay_🇺🇸US-🇺🇸US_2753
@@ -645,7 +645,7 @@ proxy-groups:
       - "|22.19Mb"
       - "|21.61Mb"
       - Relay_ |21.38Mb
-      - Relay_🇯🇵 JP-🇯🇵JP_775[速度快]
+      - Relay_🇯🇵 JP-🇯🇵JP_775-速度快
       - US_2869
       - Relay_ |26.07Mb
       - Relay_🇺🇸US-🇺🇸US_2753
@@ -742,7 +742,7 @@ proxy-groups:
       - "|22.19Mb"
       - "|21.61Mb"
       - Relay_ |21.38Mb
-      - Relay_🇯🇵 JP-🇯🇵JP_775[速度快]
+      - Relay_🇯🇵 JP-🇯🇵JP_775-速度快
       - US_2869
       - Relay_ |26.07Mb
       - Relay_🇺🇸US-🇺🇸US_2753
