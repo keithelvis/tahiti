@@ -15,7 +15,7 @@ proxies:
   - {name: ✿-Relay_🇺🇸US-🇺🇸US_704 |10.11Mb, server: 7.earths.team, port: 443, type: trojan, password: b3d27d09-77fe-431d-9829-6eba7dce20b0, sni: 7.earths.team, skip-cert-verify: true, udp: true}
   - {name: ✿-|24.09Mb, server: 185.218.6.227, port: 443, type: trojan, password: vIl4ReBJj7, skip-cert-verify: true, udp: true}
   - {name: Relay_ |11.53Mb, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 739e53db-d41c-4bad-a61d-6cd5a173f85b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2780, server: v2.mumi.bid, port: 10123, type: vmess, uuid: 4924189e-9739-47be-9875-fe5c87e485ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.mumi.bid}, udp: true}
+  - {name: ✿✿-Relay_🇺🇸US-🇺🇸US_2780, server: v2.mumi.bid, port: 10123, type: vmess, uuid: 4924189e-9739-47be-9875-fe5c87e485ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2.mumi.bid}, udp: true}
   - {name: ZZ_776 | 0.67Mb, server: 134.195.196.200, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: ZZ_3505, server: 134.195.196.147, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: ZZ_3346, server: 134.195.196.147, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
@@ -141,7 +141,7 @@ proxy-groups:
       - ✿-Relay_🇺🇸US-🇺🇸US_704 |10.11Mb
       - ✿-|24.09Mb
       - Relay_ |11.53Mb
-      - Relay_🇺🇸US-🇺🇸US_2780
+      - ✿✿-Relay_🇺🇸US-🇺🇸US_2780
       - ZZ_776 | 0.67Mb
       - ZZ_3505
       - ZZ_3346
@@ -266,7 +266,7 @@ proxy-groups:
       - ✿-Relay_🇺🇸US-🇺🇸US_704 |10.11Mb
       - ✿-|24.09Mb
       - Relay_ |11.53Mb
-      - Relay_🇺🇸US-🇺🇸US_2780
+      - ✿✿-Relay_🇺🇸US-🇺🇸US_2780
       - ZZ_776 | 0.67Mb
       - ZZ_3505
       - ZZ_3346
@@ -392,7 +392,7 @@ proxy-groups:
       - ✿-Relay_🇺🇸US-🇺🇸US_704 |10.11Mb
       - ✿-|24.09Mb
       - Relay_ |11.53Mb
-      - Relay_🇺🇸US-🇺🇸US_2780
+      - ✿✿-Relay_🇺🇸US-🇺🇸US_2780
       - ZZ_776 | 0.67Mb
       - ZZ_3505
       - ZZ_3346
@@ -530,7 +530,7 @@ proxy-groups:
       - ✿-Relay_🇺🇸US-🇺🇸US_704 |10.11Mb
       - ✿-|24.09Mb
       - Relay_ |11.53Mb
-      - Relay_🇺🇸US-🇺🇸US_2780
+      - ✿✿-Relay_🇺🇸US-🇺🇸US_2780
       - ZZ_776 | 0.67Mb
       - ZZ_3505
       - ZZ_3346
@@ -660,7 +660,7 @@ proxy-groups:
       - ✿-Relay_🇺🇸US-🇺🇸US_704 |10.11Mb
       - ✿-|24.09Mb
       - Relay_ |11.53Mb
-      - Relay_🇺🇸US-🇺🇸US_2780
+      - ✿✿-Relay_🇺🇸US-🇺🇸US_2780
       - ZZ_776 | 0.67Mb
       - ZZ_3505
       - ZZ_3346
@@ -785,7 +785,7 @@ proxy-groups:
       - ✿-Relay_🇺🇸US-🇺🇸US_704 |10.11Mb
       - ✿-|24.09Mb
       - Relay_ |11.53Mb
-      - Relay_🇺🇸US-🇺🇸US_2780
+      - ✿✿-Relay_🇺🇸US-🇺🇸US_2780
       - ZZ_776 | 0.67Mb
       - ZZ_3505
       - ZZ_3346
@@ -911,7 +911,7 @@ proxy-groups:
       - ✿-Relay_🇺🇸US-🇺🇸US_704 |10.11Mb
       - ✿-|24.09Mb
       - Relay_ |11.53Mb
-      - Relay_🇺🇸US-🇺🇸US_2780
+      - ✿✿-Relay_🇺🇸US-🇺🇸US_2780
       - ZZ_776 | 0.67Mb
       - ZZ_3505
       - ZZ_3346
@@ -1046,7 +1046,7 @@ proxy-groups:
       - ✿-Relay_🇺🇸US-🇺🇸US_704 |10.11Mb
       - ✿-|24.09Mb
       - Relay_ |11.53Mb
-      - Relay_🇺🇸US-🇺🇸US_2780
+      - ✿✿-Relay_🇺🇸US-🇺🇸US_2780
       - ZZ_776 | 0.67Mb
       - ZZ_3505
       - ZZ_3346
