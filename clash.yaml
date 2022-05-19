@@ -5,455 +5,339 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US_2478, server: s228.s2022.xyz, port: 42406, type: trojan, password: 3b43ffda-8b5c-3480-87f9-d4b069d7457a, sni: s228.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: SG_1210, server: s285.s2022.xyz, port: 35798, type: trojan, password: 8140f380-9ac5-3731-a689-3e0f0c386634, sni: s285.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: SG_1204, server: s315.s2022.xyz, port: 40385, type: trojan, password: 8140f380-9ac5-3731-a689-3e0f0c386634, sni: s315.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_2504, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: sg-server-01.selfupay.com, skip-cert-verify: true, udp: true}
-  - {name: US_2503, server: s238.s2022.xyz, port: 37826, type: trojan, password: 8140f380-9ac5-3731-a689-3e0f0c386634, sni: s238.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: SG_1203, server: s296.s2022.xyz, port: 41716, type: trojan, password: 8140f380-9ac5-3731-a689-3e0f0c386634, sni: s296.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_2486, server: s162.s2022.xyz, port: 23802, type: trojan, password: 770c9e92-f51b-3e52-b932-eba13fb56801, sni: s162.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_2500, server: s233.s2022.xyz, port: 39747, type: trojan, password: 8140f380-9ac5-3731-a689-3e0f0c386634, sni: s233.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_2498, server: s250.s2022.xyz, port: 27073, type: trojan, password: 8140f380-9ac5-3731-a689-3e0f0c386634, sni: s250.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_2489, server: s162.s2022.xyz, port: 23802, type: trojan, password: f450f309-bd8b-39ad-8bef-6fdf42fe8d94, sni: s162.s2022.xyz, skip-cert-verify: true, udp: true}
-  - {name: US_2484, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, sni: v.9051246.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3169, server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3160, server: shop-three.defun.us, port: 443, type: trojan, password: UvhTLyCf27fjxqPQ, sni: shop-three.defun.us, skip-cert-verify: true, udp: true}
-  - {name: LT_998, server: 213.183.53.177, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3170, server: shop-one.defun.us, port: 443, type: trojan, password: OEfntmUGHmwQnNGr, sni: shop-one.defun.us, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3176, server: blogs.defun.us, port: 443, type: trojan, password: 0STIv0ePoRzjxFTV, sni: blogs.defun.us, skip-cert-verify: true, udp: true}
-  - {name: LT_986, server: 213.183.53.177, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: LT_1047, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: ZZ_4199, server: 103.172.116.9, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: LT_993, server: 213.183.53.177, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: LT_1003, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3174, server: meet-one.defun.us, port: 443, type: trojan, password: INvx7sPho8PyTLS6, sni: meet-one.defun.us, skip-cert-verify: true, udp: true}
-  - {name: LT_997, server: 213.183.53.177, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: LT_987, server: 213.183.53.177, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: LT_1000, server: 213.183.53.177, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3149, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: LT_1006, server: 213.183.53.177, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_637, server: ty2-5.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-5.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: LT_1033, server: 213.183.53.177, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
-  - {name: LT_994, server: 213.183.53.177, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: ZZ_3288, server: 103.172.116.9, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: AU_88, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: usa-server-02.selfupay.com, skip-cert-verify: true, udp: true}
-  - {name: LT_878, server: 213.183.63.218, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: LT_1011, server: 213.183.53.177, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3162, server: cp-asus.ml, port: 50275, type: trojan, password: 7Z29DRr1ts, sni: cp-asus.ml, skip-cert-verify: true, udp: true}
-  - {name: LT_995, server: 213.183.53.177, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3152, server: free.spcloud.us, port: 21010, type: trojan, password: 118fc04e-fb8c-4154-9092-352cf1958fcd, sni: free.spcloud.us, skip-cert-verify: true, udp: true}
-  - {name: LT_1052, server: 213.183.53.177, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: LT_1053, server: 213.183.53.177, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: LT_1013, server: 213.183.53.177, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: LT_1041, server: 213.183.53.177, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3146, server: bai-piao-wang-zhe.98848.xyz, port: 443, type: trojan, password: f4a6a397-0007-4e45-800c-16d8a7a587ed, sni: bai-piao-wang-zhe.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: LT_1048, server: 213.183.53.177, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3145, server: us-01.pickaxe.sh, port: 443, type: trojan, password: VQcup0dd7ulkb1pV, sni: us-01.pickaxe.sh, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3175, server: miner-one.pickaxe.sh, port: 443, type: trojan, password: 8JYTzmWdnn5Ilft0, sni: miner-one.pickaxe.sh, skip-cert-verify: true, udp: true}
-  - {name: LT_985, server: 213.183.53.177, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: LT_1044, server: 213.183.53.177, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: Relay_🇺🇸US-🇷🇺RU_3126, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: LT_1028, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: LT_1043, server: 213.183.53.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3166, server: miner-two.pickaxe.sh, port: 443, type: trojan, password: YzJI2mQftXqA6ZH4, sni: miner-two.pickaxe.sh, skip-cert-verify: true, udp: true}
-  - {name: ZZ_3973, server: 103.172.116.9, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: LT_1036, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: LT_1042, server: 213.183.53.177, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_821, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: LT_960, server: 46.183.185.15, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: Relay_🇬🇧GB-🇬🇧GB_817, server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1356, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: US_2712, server: 167.88.63.119, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: ZZ_3265, server: 103.172.116.6, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
-  - {name: LT_1058, server: 213.183.53.177, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1361, server: s1.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: ZZ_3775, server: 103.172.116.6, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: JP_860, server: 172.104.98.41, port: 40056, type: vmess, uuid: 46867ec3-7a4d-43d9-cc5f-f14ceeb83a67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: LT_1022, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: LT_1027, server: 213.183.53.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1360, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇯🇵JP_3136, server: v2ray.788644.xyz, port: 443, type: vmess, uuid: 000fe881-b655-4212-b804-b00f9970d5aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /happy, ws-headers: {Host: v2ray.788644.xyz}, udp: true}
-  - {name: LT_1029, server: 213.183.53.177, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: LT_1045, server: 213.183.53.177, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: LT_1054, server: 213.183.53.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: AU_85, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: hk-server-02.selfupay.com, skip-cert-verify: true, udp: true}
-  - {name: LT_1057, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3107, server: in-am2.eqnode.net, port: 8080, type: ssr, cipher: aes-256-cfb, password: fD0KP8PWA, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: ZZ_3677, server: 103.172.116.9, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: AU_89, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: jp-server-02.selfupay.com, skip-cert-verify: true, udp: true}
-  - {name: US_2597, server: 167.88.63.119, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: AU_93, server: jp-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: jp-server-02.selfupay.com, skip-cert-verify: true, udp: true}
-  - {name: ZZ_4205, server: 103.172.116.9, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1359, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
-  - {name: RU_1295, server: 217.30.10.63, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: Relay_🇺🇦UA-🇺🇦UA_1372, server: cz5.v2ce.com, port: 443, type: trojan, password: HTrovQkamDxNfaD5, sni: cz5.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3106, server: us-am32-5.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: YFVrXZgRo, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: RU_1300, server: 217.30.10.63, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: LT_1032, server: 213.183.53.177, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: ZZ_3778, server: 103.172.116.6, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_3121, server: xr-3.herokuapp.com, port: 443, type: vmess, uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess, ws-headers: {Host: xr-3.herokuapp.com}, udp: true}
-  - {name: RO_1219, server: 185.126.116.125, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: AU_86, server: hk-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: hk-server-01.selfupay.com, skip-cert-verify: true, udp: true}
-  - {name: KR_864, server: 61.111.128.153, port: 8888, type: ss, cipher: rc4-md5, password: Xiongmao@^ios.ss, udp: true}
-  - {name: RU_1279, server: 217.30.10.63, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_638, server: ty2-8.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-8.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: RO_1220, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: AU_91, server: hk-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: hk-server-02.selfupay.com, skip-cert-verify: true, udp: true}
-  - {name: RU_1276, server: 217.30.10.63, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_635, server: ty2-7.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-7.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_636, server: ty2-2.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-2.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: AU_94, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: ned-server-01.selfupay.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_63, server: hk2.chaoge.cool, port: 58580, type: trojan, password: z7bu9klqTI, sni: hk2.chaoge.cool, skip-cert-verify: true, udp: true}
-  - {name: AU_96, server: ned-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: ned-server-01.selfupay.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_634, server: ty2-3.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-3.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: AU_95, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: sg-server-01.selfupay.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_631, server: ty2-4.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇪🇪EE-🇯🇵JP_632, server: ty2-6.nigirocloud.com, port: 443, type: trojan, password: ruWkGdbUKT4RN7kZ8t, sni: ty2-6.nigirocloud.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇸🇬SG-🇸🇬SG_1357, server: bai-piao-wang-zhe-iplc2.98848.xyz, port: 443, type: trojan, password: b23ecb07-1cd3-4490-b4eb-4d32cd0b9249, sni: bai-piao-wang-zhe-iplc2.98848.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_62, server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇦🇺AU-🇦🇺AU_60, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: AU_59, server: 43.154.72.145, port: 27091, type: vmess, uuid: 2f1e82e4-5319-4278-92aa-74d49c04683f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [43.154.72.145]}}, udp: true}
+  - {name: Relay_🇺🇸US-🇬🇧GB_2978, server: s2.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s2.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: US_2264, server: sg-server-01.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: sg-server-01.selfupay.com, skip-cert-verify: true, udp: true}
+  - {name: US_2227, server: us2.tcpbbr.net, port: 443, type: trojan, password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: ZZ_3863, server: 103.172.116.9, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: US_2267, server: v.9051246.xyz, port: 443, type: trojan, password: !<str> 18825786, sni: v.9051246.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_2243, server: www.anlocl.gq, port: 30521, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_1394, server: tw.node.qchwnd.moe, port: 44608, type: trojan, password: d4fd37ae-893c-4486-b59a-da43ce2ae0f9, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: US_2240, server: www.anloe.ga, port: 9063, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloe.ga, skip-cert-verify: true, udp: true}
+  - {name: LT_1044, server: 213.183.53.177, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: LT_1035, server: 213.183.53.177, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: US_2263, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, sni: usa-server-02.selfupay.com, skip-cert-verify: true, udp: true}
+  - {name: US_2260, server: 184.168.127.50, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
+  - {name: ZA_2273, server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cera.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: LT_1026, server: 213.183.53.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: US_2245, server: hg.053111.xyz, port: 443, type: trojan, password: d4435b69-3d08-d58a-919f-7f1707150ecb, sni: hg.053111.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_2268, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: LT_989, server: 213.183.53.177, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: LT_1051, server: 213.183.53.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: Relay_🇬🇧GB-🇬🇧GB_804, server: s3.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: US_2242, server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: US_2255, server: v2losdmit1.doubledou.win, port: 6674, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: v2losdmit1.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: LT_1046, server: 213.183.53.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: LT_1029, server: 213.183.53.177, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
+  - {name: LT_940, server: 213.183.63.218, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: LT_1040, server: 213.183.53.177, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: US_2238, server: www.anlot.tk, port: 2352, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlot.tk, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇬🇧GB_2973, server: s1.upyun.online, port: 12340, type: trojan, password: 316b40c0-0dab-4ea1-9666-ac1658b033b2, sni: s1.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: US_2246, server: s250.s2022.xyz, port: 27073, type: trojan, password: 8140f380-9ac5-3731-a689-3e0f0c386634, sni: s250.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_2265, server: usa-server-02.selfupay.com, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, sni: usa-server-02.selfupay.com, skip-cert-verify: true, udp: true}
+  - {name: US_2225, server: us2.tcpbbr.net, port: 443, type: trojan, password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: CA_338, server: 165.154.225.230, port: 33080, type: vmess, uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US_2257 | 3.45Mb, server: s3.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s3.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: US_2239, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US_2218 | 2.76Mb, server: v5.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v5.ssrsub.com}, udp: true}
+  - {name: Relay_🇷🇺RU-🇷🇺RU_1343, server: ru.node.qchwnd.moe, port: 44606, type: trojan, password: d4fd37ae-893c-4486-b59a-da43ce2ae0f9, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: US_2229, server: 184.168.127.50, port: 443, type: trojan, password: 28d98f761aca9d636f44db62544628eb, skip-cert-verify: true, udp: true}
+  - {name: LT_980, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: US_2261, server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: US_2234, server: us01.straycloud.icu, port: 442, type: trojan, password: 0ac65136-5962-49d6-91f0-138957f6dec9, sni: us01.straycloud.icu, skip-cert-verify: true, udp: true}
+  - {name: LT_994, server: 213.183.53.177, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: LT_1004, server: 213.183.53.177, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: US_2269, server: www.anloao.cf, port: 9053, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anloao.cf, skip-cert-verify: true, udp: true}
+  - {name: LT_997, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: US_2254, server: meet-two.defun.us, port: 443, type: trojan, password: U8s25pwKISqVxHNO, sni: meet-two.defun.us, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇩🇪DE-🇺🇸US_593, server: s4.upyun.online, port: 12340, type: trojan, password: c0276440-f163-4f40-a08c-78b158ce6c4f, sni: s4.upyun.online, skip-cert-verify: true, udp: true}
+  - {name: US_2250, server: s238.s2022.xyz, port: 37826, type: trojan, password: 8140f380-9ac5-3731-a689-3e0f0c386634, sni: s238.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_2236, server: a2.centaur.network, port: 8081, type: trojan, password: cdcf03f6-5326-4496-a1d1-03bb098ad56f, sni: a2.centaur.network, skip-cert-verify: true, udp: true}
+  - {name: LT_1016, server: 213.183.53.177, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2957, server: aa.houdinix.space, port: 26267, type: vmess, uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wis, ws-headers: {Host: aa.houdinix.space}, udp: true}
+  - {name: US_2270, server: xieyi.jddg.me, port: 443, type: trojan, password: d716e745-62f8-498e-af97-3a1e096d8c84, sni: xieyi.jddg.me, skip-cert-verify: true, udp: true}
+  - {name: LT_998, server: 213.183.53.177, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_817, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}, udp: true}
+  - {name: LT_1001, server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2972, server: uk.node.qchwnd.moe, port: 44613, type: trojan, password: d4fd37ae-893c-4486-b59a-da43ce2ae0f9, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2862, server: cuvip.doubledou.win, port: 4583, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cuvip.doubledou.win, skip-cert-verify: true, udp: true}
+  - {name: LT_996, server: 213.183.53.177, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: LT_1021, server: 213.183.53.177, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: US_2252, server: s228.s2022.xyz, port: 42406, type: trojan, password: 3b43ffda-8b5c-3480-87f9-d4b069d7457a, sni: s228.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: LT_985, server: 213.183.53.177, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: US_2230, server: azhk.relay.qchwnd.moe, port: 443, type: trojan, password: 52face98-c4cb-4299-aa38-9546085b0619, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: LT_1038, server: 213.183.53.177, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
+  - {name: ZZ_2861 | 3.68Mb, server: 103.172.116.9, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: Relay_🇺🇸US-🇷🇺RU_2953, server: v1.ssrsub.com, port: 443, type: vmess, uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
+  - {name: ZZ_2275 |20.26Mb, server: taiwan.jindouyunjc.com, port: 1258, type: trojan, password: 0c6e7be8-784d-4a0f-8bab-705a4f12c687, sni: taiwan.jindouyunjc.com, skip-cert-verify: true, udp: true}
+  - {name: ZZ_2274 | 5.62Mb, server: taiwan.jindouyunjc.com, port: 1256, type: ss, cipher: chacha20-ietf-poly1305, password: 0c6e7be8-784d-4a0f-8bab-705a4f12c687, udp: true}
+  - {name: US_1172 |29.97Mb, server: azrb01.jindouyunjc.com, port: 1611, type: trojan, password: 0c6e7be8-784d-4a0f-8bab-705a4f12c687, sni: azrb01.jindouyunjc.com, skip-cert-verify: true, udp: true}
+  - {name: US_2256, server: 159.223.29.152, port: 28443, type: trojan, password: 486dd7e4-24bc-498a-b4f0-ecd704f8d8cd, skip-cert-verify: true, udp: true}
+  - {name: US_2244, server: www.anlocl.gq, port: 20521, type: trojan, password: b64b0f9c-23df-3112-a790-d8aa068aa2fe, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
+  - {name: US_2224, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US_2247, server: s233.s2022.xyz, port: 39747, type: trojan, password: 8140f380-9ac5-3731-a689-3e0f0c386634, sni: s233.s2022.xyz, skip-cert-verify: true, udp: true}
+  - {name: LT_1043, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2970, server: ocikr.node.qchwnd.moe, port: 44600, type: trojan, password: d4fd37ae-893c-4486-b59a-da43ce2ae0f9, sni: ocikr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: US_1272 | 2.65Mb, server: 164.92.115.63, port: 43371, type: ss, cipher: chacha20-ietf-poly1305, password: 54df1ad5-1323-4dd7-b7a1-a53202347526, udp: true}
+  - {name: US_2228, server: 184.168.127.50, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
+  - {name: US_1168 |33.36Mb, server: riben.jindouyunjc.com, port: 1367, type: trojan, password: 0c6e7be8-784d-4a0f-8bab-705a4f12c687, sni: riben.jindouyunjc.com, skip-cert-verify: true, udp: true}
+  - {name: SG_1097 |25.60Mb, server: 54.255.192.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_1161 |32.77Mb, server: riben.jindouyunjc.com, port: 1335, type: ss, cipher: chacha20-ietf-poly1305, password: 0c6e7be8-784d-4a0f-8bab-705a4f12c687, udp: true}
+  - {name: US_1162 |32.94Mb, server: azrb01.jindouyunjc.com, port: 3418, type: ss, cipher: chacha20-ietf-poly1305, password: 0c6e7be8-784d-4a0f-8bab-705a4f12c687, udp: true}
+  - {name: US_1165 |25.91Mb, server: 13.215.184.2, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_2478
-      - SG_1210
-      - SG_1204
-      - US_2504
-      - US_2503
-      - SG_1203
-      - US_2486
-      - US_2500
-      - US_2498
-      - US_2489
-      - US_2484
-      - Relay_🇺🇸US-🇺🇸US_3169
-      - Relay_🇺🇸US-🇺🇸US_3160
-      - LT_998
-      - Relay_🇺🇸US-🇺🇸US_3170
-      - Relay_🇺🇸US-🇺🇸US_3176
-      - LT_986
-      - LT_1047
-      - ZZ_4199
-      - LT_993
-      - LT_1003
-      - Relay_🇺🇸US-🇺🇸US_3174
-      - LT_997
-      - LT_987
-      - LT_1000
-      - Relay_🇺🇸US-🇺🇸US_3149
-      - LT_1006
-      - Relay_🇪🇪EE-🇯🇵JP_637
-      - LT_1033
-      - LT_994
-      - ZZ_3288
-      - AU_88
-      - LT_878
-      - LT_1011
-      - Relay_🇺🇸US-🇺🇸US_3162
-      - LT_995
-      - Relay_🇺🇸US-🇺🇸US_3152
-      - LT_1052
-      - LT_1053
-      - LT_1013
-      - LT_1041
-      - Relay_🇺🇸US-🇺🇸US_3146
-      - LT_1048
-      - Relay_🇺🇸US-🇺🇸US_3145
-      - Relay_🇺🇸US-🇺🇸US_3175
-      - LT_985
+      - Relay_🇺🇸US-🇬🇧GB_2978
+      - US_2264
+      - US_2227
+      - ZZ_3863
+      - US_2267
+      - US_2243
+      - Relay_🇹🇼TW-🇹🇼TW_1394
+      - US_2240
       - LT_1044
-      - Relay_🇺🇸US-🇷🇺RU_3126
-      - LT_1028
-      - LT_1043
-      - Relay_🇺🇸US-🇺🇸US_3166
-      - ZZ_3973
-      - LT_1036
-      - LT_1042
-      - Relay_🇬🇧GB-🇬🇧GB_821
-      - LT_960
-      - Relay_🇬🇧GB-🇬🇧GB_817
-      - Relay_🇸🇬SG-🇸🇬SG_1356
-      - US_2712
-      - ZZ_3265
-      - LT_1058
-      - Relay_🇸🇬SG-🇸🇬SG_1361
-      - ZZ_3775
-      - JP_860
-      - LT_1022
-      - LT_1027
-      - Relay_🇸🇬SG-🇸🇬SG_1360
-      - Relay_🇺🇸US-🇯🇵JP_3136
+      - LT_1035
+      - US_2263
+      - US_2260
+      - ZA_2273
+      - LT_1026
+      - US_2245
+      - US_2268
+      - LT_989
+      - LT_1051
+      - Relay_🇬🇧GB-🇬🇧GB_804
+      - US_2242
+      - US_2255
+      - LT_1046
       - LT_1029
-      - LT_1045
-      - LT_1054
-      - AU_85
-      - LT_1057
-      - Relay_🇺🇸US-🇺🇸US_3107
-      - ZZ_3677
-      - AU_89
-      - US_2597
-      - AU_93
-      - ZZ_4205
-      - Relay_🇸🇬SG-🇸🇬SG_1359
-      - RU_1295
-      - Relay_🇺🇦UA-🇺🇦UA_1372
-      - Relay_🇺🇸US-🇺🇸US_3106
-      - RU_1300
-      - LT_1032
-      - ZZ_3778
-      - Relay_🇺🇸US-🇺🇸US_3121
-      - RO_1219
-      - AU_86
-      - KR_864
-      - RU_1279
-      - Relay_🇪🇪EE-🇯🇵JP_638
-      - RO_1220
-      - AU_91
-      - RU_1276
-      - Relay_🇪🇪EE-🇯🇵JP_635
-      - Relay_🇪🇪EE-🇯🇵JP_636
-      - AU_94
-      - Relay_🇦🇺AU-🇦🇺AU_63
-      - AU_96
-      - Relay_🇪🇪EE-🇯🇵JP_634
-      - AU_95
-      - Relay_🇪🇪EE-🇯🇵JP_631
-      - Relay_🇪🇪EE-🇯🇵JP_632
-      - Relay_🇸🇬SG-🇸🇬SG_1357
-      - Relay_🇦🇺AU-🇦🇺AU_62
-      - Relay_🇦🇺AU-🇦🇺AU_60
-      - AU_59
+      - LT_940
+      - LT_1040
+      - US_2238
+      - Relay_🇺🇸US-🇬🇧GB_2973
+      - US_2246
+      - US_2265
+      - US_2225
+      - CA_338
+      - US_2257 | 3.45Mb
+      - US_2239
+      - US_2218 | 2.76Mb
+      - Relay_🇷🇺RU-🇷🇺RU_1343
+      - US_2229
+      - LT_980
+      - US_2261
+      - US_2234
+      - LT_994
+      - LT_1004
+      - US_2269
+      - LT_997
+      - US_2254
+      - Relay_🇩🇪DE-🇺🇸US_593
+      - US_2250
+      - US_2236
+      - LT_1016
+      - Relay_🇺🇸US-🇺🇸US_2957
+      - US_2270
+      - LT_998
+      - Relay_🇭🇰HK-🇭🇰HK_817
+      - LT_1001
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - ZZ_2862
+      - LT_996
+      - LT_1021
+      - US_2252
+      - LT_985
+      - US_2230
+      - LT_1038
+      - ZZ_2861 | 3.68Mb
+      - Relay_🇺🇸US-🇷🇺RU_2953
+      - ZZ_2275 |20.26Mb
+      - ZZ_2274 | 5.62Mb
+      - US_1172 |29.97Mb
+      - US_2256
+      - US_2244
+      - US_2224
+      - US_2247
+      - LT_1043
+      - Relay_🇺🇸US-🇺🇸US_2970
+      - US_1272 | 2.65Mb
+      - US_2228
+      - US_1168 |33.36Mb
+      - SG_1097 |25.60Mb
+      - US_1161 |32.77Mb
+      - US_1162 |32.94Mb
+      - US_1165 |25.91Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US_2478
-      - SG_1210
-      - SG_1204
-      - US_2504
-      - US_2503
-      - SG_1203
-      - US_2486
-      - US_2500
-      - US_2498
-      - US_2489
-      - US_2484
-      - Relay_🇺🇸US-🇺🇸US_3169
-      - Relay_🇺🇸US-🇺🇸US_3160
-      - LT_998
-      - Relay_🇺🇸US-🇺🇸US_3170
-      - Relay_🇺🇸US-🇺🇸US_3176
-      - LT_986
-      - LT_1047
-      - ZZ_4199
-      - LT_993
-      - LT_1003
-      - Relay_🇺🇸US-🇺🇸US_3174
-      - LT_997
-      - LT_987
-      - LT_1000
-      - Relay_🇺🇸US-🇺🇸US_3149
-      - LT_1006
-      - Relay_🇪🇪EE-🇯🇵JP_637
-      - LT_1033
-      - LT_994
-      - ZZ_3288
-      - AU_88
-      - LT_878
-      - LT_1011
-      - Relay_🇺🇸US-🇺🇸US_3162
-      - LT_995
-      - Relay_🇺🇸US-🇺🇸US_3152
-      - LT_1052
-      - LT_1053
-      - LT_1013
-      - LT_1041
-      - Relay_🇺🇸US-🇺🇸US_3146
-      - LT_1048
-      - Relay_🇺🇸US-🇺🇸US_3145
-      - Relay_🇺🇸US-🇺🇸US_3175
-      - LT_985
+      - Relay_🇺🇸US-🇬🇧GB_2978
+      - US_2264
+      - US_2227
+      - ZZ_3863
+      - US_2267
+      - US_2243
+      - Relay_🇹🇼TW-🇹🇼TW_1394
+      - US_2240
       - LT_1044
-      - Relay_🇺🇸US-🇷🇺RU_3126
-      - LT_1028
-      - LT_1043
-      - Relay_🇺🇸US-🇺🇸US_3166
-      - ZZ_3973
-      - LT_1036
-      - LT_1042
-      - Relay_🇬🇧GB-🇬🇧GB_821
-      - LT_960
-      - Relay_🇬🇧GB-🇬🇧GB_817
-      - Relay_🇸🇬SG-🇸🇬SG_1356
-      - US_2712
-      - ZZ_3265
-      - LT_1058
-      - Relay_🇸🇬SG-🇸🇬SG_1361
-      - ZZ_3775
-      - JP_860
-      - LT_1022
-      - LT_1027
-      - Relay_🇸🇬SG-🇸🇬SG_1360
-      - Relay_🇺🇸US-🇯🇵JP_3136
+      - LT_1035
+      - US_2263
+      - US_2260
+      - ZA_2273
+      - LT_1026
+      - US_2245
+      - US_2268
+      - LT_989
+      - LT_1051
+      - Relay_🇬🇧GB-🇬🇧GB_804
+      - US_2242
+      - US_2255
+      - LT_1046
       - LT_1029
-      - LT_1045
-      - LT_1054
-      - AU_85
-      - LT_1057
-      - Relay_🇺🇸US-🇺🇸US_3107
-      - ZZ_3677
-      - AU_89
-      - US_2597
-      - AU_93
-      - ZZ_4205
-      - Relay_🇸🇬SG-🇸🇬SG_1359
-      - RU_1295
-      - Relay_🇺🇦UA-🇺🇦UA_1372
-      - Relay_🇺🇸US-🇺🇸US_3106
-      - RU_1300
-      - LT_1032
-      - ZZ_3778
-      - Relay_🇺🇸US-🇺🇸US_3121
-      - RO_1219
-      - AU_86
-      - KR_864
-      - RU_1279
-      - Relay_🇪🇪EE-🇯🇵JP_638
-      - RO_1220
-      - AU_91
-      - RU_1276
-      - Relay_🇪🇪EE-🇯🇵JP_635
-      - Relay_🇪🇪EE-🇯🇵JP_636
-      - AU_94
-      - Relay_🇦🇺AU-🇦🇺AU_63
-      - AU_96
-      - Relay_🇪🇪EE-🇯🇵JP_634
-      - AU_95
-      - Relay_🇪🇪EE-🇯🇵JP_631
-      - Relay_🇪🇪EE-🇯🇵JP_632
-      - Relay_🇸🇬SG-🇸🇬SG_1357
-      - Relay_🇦🇺AU-🇦🇺AU_62
-      - Relay_🇦🇺AU-🇦🇺AU_60
-      - AU_59
+      - LT_940
+      - LT_1040
+      - US_2238
+      - Relay_🇺🇸US-🇬🇧GB_2973
+      - US_2246
+      - US_2265
+      - US_2225
+      - CA_338
+      - US_2257 | 3.45Mb
+      - US_2239
+      - US_2218 | 2.76Mb
+      - Relay_🇷🇺RU-🇷🇺RU_1343
+      - US_2229
+      - LT_980
+      - US_2261
+      - US_2234
+      - LT_994
+      - LT_1004
+      - US_2269
+      - LT_997
+      - US_2254
+      - Relay_🇩🇪DE-🇺🇸US_593
+      - US_2250
+      - US_2236
+      - LT_1016
+      - Relay_🇺🇸US-🇺🇸US_2957
+      - US_2270
+      - LT_998
+      - Relay_🇭🇰HK-🇭🇰HK_817
+      - LT_1001
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - ZZ_2862
+      - LT_996
+      - LT_1021
+      - US_2252
+      - LT_985
+      - US_2230
+      - LT_1038
+      - ZZ_2861 | 3.68Mb
+      - Relay_🇺🇸US-🇷🇺RU_2953
+      - ZZ_2275 |20.26Mb
+      - ZZ_2274 | 5.62Mb
+      - US_1172 |29.97Mb
+      - US_2256
+      - US_2244
+      - US_2224
+      - US_2247
+      - LT_1043
+      - Relay_🇺🇸US-🇺🇸US_2970
+      - US_1272 | 2.65Mb
+      - US_2228
+      - US_1168 |33.36Mb
+      - SG_1097 |25.60Mb
+      - US_1161 |32.77Mb
+      - US_1162 |32.94Mb
+      - US_1165 |25.91Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_2478
-      - SG_1210
-      - SG_1204
-      - US_2504
-      - US_2503
-      - SG_1203
-      - US_2486
-      - US_2500
-      - US_2498
-      - US_2489
-      - US_2484
-      - Relay_🇺🇸US-🇺🇸US_3169
-      - Relay_🇺🇸US-🇺🇸US_3160
-      - LT_998
-      - Relay_🇺🇸US-🇺🇸US_3170
-      - Relay_🇺🇸US-🇺🇸US_3176
-      - LT_986
-      - LT_1047
-      - ZZ_4199
-      - LT_993
-      - LT_1003
-      - Relay_🇺🇸US-🇺🇸US_3174
-      - LT_997
-      - LT_987
-      - LT_1000
-      - Relay_🇺🇸US-🇺🇸US_3149
-      - LT_1006
-      - Relay_🇪🇪EE-🇯🇵JP_637
-      - LT_1033
-      - LT_994
-      - ZZ_3288
-      - AU_88
-      - LT_878
-      - LT_1011
-      - Relay_🇺🇸US-🇺🇸US_3162
-      - LT_995
-      - Relay_🇺🇸US-🇺🇸US_3152
-      - LT_1052
-      - LT_1053
-      - LT_1013
-      - LT_1041
-      - Relay_🇺🇸US-🇺🇸US_3146
-      - LT_1048
-      - Relay_🇺🇸US-🇺🇸US_3145
-      - Relay_🇺🇸US-🇺🇸US_3175
-      - LT_985
+      - Relay_🇺🇸US-🇬🇧GB_2978
+      - US_2264
+      - US_2227
+      - ZZ_3863
+      - US_2267
+      - US_2243
+      - Relay_🇹🇼TW-🇹🇼TW_1394
+      - US_2240
       - LT_1044
-      - Relay_🇺🇸US-🇷🇺RU_3126
-      - LT_1028
-      - LT_1043
-      - Relay_🇺🇸US-🇺🇸US_3166
-      - ZZ_3973
-      - LT_1036
-      - LT_1042
-      - Relay_🇬🇧GB-🇬🇧GB_821
-      - LT_960
-      - Relay_🇬🇧GB-🇬🇧GB_817
-      - Relay_🇸🇬SG-🇸🇬SG_1356
-      - US_2712
-      - ZZ_3265
-      - LT_1058
-      - Relay_🇸🇬SG-🇸🇬SG_1361
-      - ZZ_3775
-      - JP_860
-      - LT_1022
-      - LT_1027
-      - Relay_🇸🇬SG-🇸🇬SG_1360
-      - Relay_🇺🇸US-🇯🇵JP_3136
+      - LT_1035
+      - US_2263
+      - US_2260
+      - ZA_2273
+      - LT_1026
+      - US_2245
+      - US_2268
+      - LT_989
+      - LT_1051
+      - Relay_🇬🇧GB-🇬🇧GB_804
+      - US_2242
+      - US_2255
+      - LT_1046
       - LT_1029
-      - LT_1045
-      - LT_1054
-      - AU_85
-      - LT_1057
-      - Relay_🇺🇸US-🇺🇸US_3107
-      - ZZ_3677
-      - AU_89
-      - US_2597
-      - AU_93
-      - ZZ_4205
-      - Relay_🇸🇬SG-🇸🇬SG_1359
-      - RU_1295
-      - Relay_🇺🇦UA-🇺🇦UA_1372
-      - Relay_🇺🇸US-🇺🇸US_3106
-      - RU_1300
-      - LT_1032
-      - ZZ_3778
-      - Relay_🇺🇸US-🇺🇸US_3121
-      - RO_1219
-      - AU_86
-      - KR_864
-      - RU_1279
-      - Relay_🇪🇪EE-🇯🇵JP_638
-      - RO_1220
-      - AU_91
-      - RU_1276
-      - Relay_🇪🇪EE-🇯🇵JP_635
-      - Relay_🇪🇪EE-🇯🇵JP_636
-      - AU_94
-      - Relay_🇦🇺AU-🇦🇺AU_63
-      - AU_96
-      - Relay_🇪🇪EE-🇯🇵JP_634
-      - AU_95
-      - Relay_🇪🇪EE-🇯🇵JP_631
-      - Relay_🇪🇪EE-🇯🇵JP_632
-      - Relay_🇸🇬SG-🇸🇬SG_1357
-      - Relay_🇦🇺AU-🇦🇺AU_62
-      - Relay_🇦🇺AU-🇦🇺AU_60
-      - AU_59
+      - LT_940
+      - LT_1040
+      - US_2238
+      - Relay_🇺🇸US-🇬🇧GB_2973
+      - US_2246
+      - US_2265
+      - US_2225
+      - CA_338
+      - US_2257 | 3.45Mb
+      - US_2239
+      - US_2218 | 2.76Mb
+      - Relay_🇷🇺RU-🇷🇺RU_1343
+      - US_2229
+      - LT_980
+      - US_2261
+      - US_2234
+      - LT_994
+      - LT_1004
+      - US_2269
+      - LT_997
+      - US_2254
+      - Relay_🇩🇪DE-🇺🇸US_593
+      - US_2250
+      - US_2236
+      - LT_1016
+      - Relay_🇺🇸US-🇺🇸US_2957
+      - US_2270
+      - LT_998
+      - Relay_🇭🇰HK-🇭🇰HK_817
+      - LT_1001
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - ZZ_2862
+      - LT_996
+      - LT_1021
+      - US_2252
+      - LT_985
+      - US_2230
+      - LT_1038
+      - ZZ_2861 | 3.68Mb
+      - Relay_🇺🇸US-🇷🇺RU_2953
+      - ZZ_2275 |20.26Mb
+      - ZZ_2274 | 5.62Mb
+      - US_1172 |29.97Mb
+      - US_2256
+      - US_2244
+      - US_2224
+      - US_2247
+      - LT_1043
+      - Relay_🇺🇸US-🇺🇸US_2970
+      - US_1272 | 2.65Mb
+      - US_2228
+      - US_1168 |33.36Mb
+      - SG_1097 |25.60Mb
+      - US_1161 |32.77Mb
+      - US_1162 |32.94Mb
+      - US_1165 |25.91Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -472,114 +356,85 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US_2478
-      - SG_1210
-      - SG_1204
-      - US_2504
-      - US_2503
-      - SG_1203
-      - US_2486
-      - US_2500
-      - US_2498
-      - US_2489
-      - US_2484
-      - Relay_🇺🇸US-🇺🇸US_3169
-      - Relay_🇺🇸US-🇺🇸US_3160
-      - LT_998
-      - Relay_🇺🇸US-🇺🇸US_3170
-      - Relay_🇺🇸US-🇺🇸US_3176
-      - LT_986
-      - LT_1047
-      - ZZ_4199
-      - LT_993
-      - LT_1003
-      - Relay_🇺🇸US-🇺🇸US_3174
-      - LT_997
-      - LT_987
-      - LT_1000
-      - Relay_🇺🇸US-🇺🇸US_3149
-      - LT_1006
-      - Relay_🇪🇪EE-🇯🇵JP_637
-      - LT_1033
-      - LT_994
-      - ZZ_3288
-      - AU_88
-      - LT_878
-      - LT_1011
-      - Relay_🇺🇸US-🇺🇸US_3162
-      - LT_995
-      - Relay_🇺🇸US-🇺🇸US_3152
-      - LT_1052
-      - LT_1053
-      - LT_1013
-      - LT_1041
-      - Relay_🇺🇸US-🇺🇸US_3146
-      - LT_1048
-      - Relay_🇺🇸US-🇺🇸US_3145
-      - Relay_🇺🇸US-🇺🇸US_3175
-      - LT_985
+      - Relay_🇺🇸US-🇬🇧GB_2978
+      - US_2264
+      - US_2227
+      - ZZ_3863
+      - US_2267
+      - US_2243
+      - Relay_🇹🇼TW-🇹🇼TW_1394
+      - US_2240
       - LT_1044
-      - Relay_🇺🇸US-🇷🇺RU_3126
-      - LT_1028
-      - LT_1043
-      - Relay_🇺🇸US-🇺🇸US_3166
-      - ZZ_3973
-      - LT_1036
-      - LT_1042
-      - Relay_🇬🇧GB-🇬🇧GB_821
-      - LT_960
-      - Relay_🇬🇧GB-🇬🇧GB_817
-      - Relay_🇸🇬SG-🇸🇬SG_1356
-      - US_2712
-      - ZZ_3265
-      - LT_1058
-      - Relay_🇸🇬SG-🇸🇬SG_1361
-      - ZZ_3775
-      - JP_860
-      - LT_1022
-      - LT_1027
-      - Relay_🇸🇬SG-🇸🇬SG_1360
-      - Relay_🇺🇸US-🇯🇵JP_3136
+      - LT_1035
+      - US_2263
+      - US_2260
+      - ZA_2273
+      - LT_1026
+      - US_2245
+      - US_2268
+      - LT_989
+      - LT_1051
+      - Relay_🇬🇧GB-🇬🇧GB_804
+      - US_2242
+      - US_2255
+      - LT_1046
       - LT_1029
-      - LT_1045
-      - LT_1054
-      - AU_85
-      - LT_1057
-      - Relay_🇺🇸US-🇺🇸US_3107
-      - ZZ_3677
-      - AU_89
-      - US_2597
-      - AU_93
-      - ZZ_4205
-      - Relay_🇸🇬SG-🇸🇬SG_1359
-      - RU_1295
-      - Relay_🇺🇦UA-🇺🇦UA_1372
-      - Relay_🇺🇸US-🇺🇸US_3106
-      - RU_1300
-      - LT_1032
-      - ZZ_3778
-      - Relay_🇺🇸US-🇺🇸US_3121
-      - RO_1219
-      - AU_86
-      - KR_864
-      - RU_1279
-      - Relay_🇪🇪EE-🇯🇵JP_638
-      - RO_1220
-      - AU_91
-      - RU_1276
-      - Relay_🇪🇪EE-🇯🇵JP_635
-      - Relay_🇪🇪EE-🇯🇵JP_636
-      - AU_94
-      - Relay_🇦🇺AU-🇦🇺AU_63
-      - AU_96
-      - Relay_🇪🇪EE-🇯🇵JP_634
-      - AU_95
-      - Relay_🇪🇪EE-🇯🇵JP_631
-      - Relay_🇪🇪EE-🇯🇵JP_632
-      - Relay_🇸🇬SG-🇸🇬SG_1357
-      - Relay_🇦🇺AU-🇦🇺AU_62
-      - Relay_🇦🇺AU-🇦🇺AU_60
-      - AU_59
+      - LT_940
+      - LT_1040
+      - US_2238
+      - Relay_🇺🇸US-🇬🇧GB_2973
+      - US_2246
+      - US_2265
+      - US_2225
+      - CA_338
+      - US_2257 | 3.45Mb
+      - US_2239
+      - US_2218 | 2.76Mb
+      - Relay_🇷🇺RU-🇷🇺RU_1343
+      - US_2229
+      - LT_980
+      - US_2261
+      - US_2234
+      - LT_994
+      - LT_1004
+      - US_2269
+      - LT_997
+      - US_2254
+      - Relay_🇩🇪DE-🇺🇸US_593
+      - US_2250
+      - US_2236
+      - LT_1016
+      - Relay_🇺🇸US-🇺🇸US_2957
+      - US_2270
+      - LT_998
+      - Relay_🇭🇰HK-🇭🇰HK_817
+      - LT_1001
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - ZZ_2862
+      - LT_996
+      - LT_1021
+      - US_2252
+      - LT_985
+      - US_2230
+      - LT_1038
+      - ZZ_2861 | 3.68Mb
+      - Relay_🇺🇸US-🇷🇺RU_2953
+      - ZZ_2275 |20.26Mb
+      - ZZ_2274 | 5.62Mb
+      - US_1172 |29.97Mb
+      - US_2256
+      - US_2244
+      - US_2224
+      - US_2247
+      - LT_1043
+      - Relay_🇺🇸US-🇺🇸US_2970
+      - US_1272 | 2.65Mb
+      - US_2228
+      - US_1168 |33.36Mb
+      - SG_1097 |25.60Mb
+      - US_1161 |32.77Mb
+      - US_1162 |32.94Mb
+      - US_1165 |25.91Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -590,341 +445,254 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US_2478
-      - SG_1210
-      - SG_1204
-      - US_2504
-      - US_2503
-      - SG_1203
-      - US_2486
-      - US_2500
-      - US_2498
-      - US_2489
-      - US_2484
-      - Relay_🇺🇸US-🇺🇸US_3169
-      - Relay_🇺🇸US-🇺🇸US_3160
-      - LT_998
-      - Relay_🇺🇸US-🇺🇸US_3170
-      - Relay_🇺🇸US-🇺🇸US_3176
-      - LT_986
-      - LT_1047
-      - ZZ_4199
-      - LT_993
-      - LT_1003
-      - Relay_🇺🇸US-🇺🇸US_3174
-      - LT_997
-      - LT_987
-      - LT_1000
-      - Relay_🇺🇸US-🇺🇸US_3149
-      - LT_1006
-      - Relay_🇪🇪EE-🇯🇵JP_637
-      - LT_1033
-      - LT_994
-      - ZZ_3288
-      - AU_88
-      - LT_878
-      - LT_1011
-      - Relay_🇺🇸US-🇺🇸US_3162
-      - LT_995
-      - Relay_🇺🇸US-🇺🇸US_3152
-      - LT_1052
-      - LT_1053
-      - LT_1013
-      - LT_1041
-      - Relay_🇺🇸US-🇺🇸US_3146
-      - LT_1048
-      - Relay_🇺🇸US-🇺🇸US_3145
-      - Relay_🇺🇸US-🇺🇸US_3175
-      - LT_985
+      - Relay_🇺🇸US-🇬🇧GB_2978
+      - US_2264
+      - US_2227
+      - ZZ_3863
+      - US_2267
+      - US_2243
+      - Relay_🇹🇼TW-🇹🇼TW_1394
+      - US_2240
       - LT_1044
-      - Relay_🇺🇸US-🇷🇺RU_3126
-      - LT_1028
-      - LT_1043
-      - Relay_🇺🇸US-🇺🇸US_3166
-      - ZZ_3973
-      - LT_1036
-      - LT_1042
-      - Relay_🇬🇧GB-🇬🇧GB_821
-      - LT_960
-      - Relay_🇬🇧GB-🇬🇧GB_817
-      - Relay_🇸🇬SG-🇸🇬SG_1356
-      - US_2712
-      - ZZ_3265
-      - LT_1058
-      - Relay_🇸🇬SG-🇸🇬SG_1361
-      - ZZ_3775
-      - JP_860
-      - LT_1022
-      - LT_1027
-      - Relay_🇸🇬SG-🇸🇬SG_1360
-      - Relay_🇺🇸US-🇯🇵JP_3136
+      - LT_1035
+      - US_2263
+      - US_2260
+      - ZA_2273
+      - LT_1026
+      - US_2245
+      - US_2268
+      - LT_989
+      - LT_1051
+      - Relay_🇬🇧GB-🇬🇧GB_804
+      - US_2242
+      - US_2255
+      - LT_1046
       - LT_1029
-      - LT_1045
-      - LT_1054
-      - AU_85
-      - LT_1057
-      - Relay_🇺🇸US-🇺🇸US_3107
-      - ZZ_3677
-      - AU_89
-      - US_2597
-      - AU_93
-      - ZZ_4205
-      - Relay_🇸🇬SG-🇸🇬SG_1359
-      - RU_1295
-      - Relay_🇺🇦UA-🇺🇦UA_1372
-      - Relay_🇺🇸US-🇺🇸US_3106
-      - RU_1300
-      - LT_1032
-      - ZZ_3778
-      - Relay_🇺🇸US-🇺🇸US_3121
-      - RO_1219
-      - AU_86
-      - KR_864
-      - RU_1279
-      - Relay_🇪🇪EE-🇯🇵JP_638
-      - RO_1220
-      - AU_91
-      - RU_1276
-      - Relay_🇪🇪EE-🇯🇵JP_635
-      - Relay_🇪🇪EE-🇯🇵JP_636
-      - AU_94
-      - Relay_🇦🇺AU-🇦🇺AU_63
-      - AU_96
-      - Relay_🇪🇪EE-🇯🇵JP_634
-      - AU_95
-      - Relay_🇪🇪EE-🇯🇵JP_631
-      - Relay_🇪🇪EE-🇯🇵JP_632
-      - Relay_🇸🇬SG-🇸🇬SG_1357
-      - Relay_🇦🇺AU-🇦🇺AU_62
-      - Relay_🇦🇺AU-🇦🇺AU_60
-      - AU_59
+      - LT_940
+      - LT_1040
+      - US_2238
+      - Relay_🇺🇸US-🇬🇧GB_2973
+      - US_2246
+      - US_2265
+      - US_2225
+      - CA_338
+      - US_2257 | 3.45Mb
+      - US_2239
+      - US_2218 | 2.76Mb
+      - Relay_🇷🇺RU-🇷🇺RU_1343
+      - US_2229
+      - LT_980
+      - US_2261
+      - US_2234
+      - LT_994
+      - LT_1004
+      - US_2269
+      - LT_997
+      - US_2254
+      - Relay_🇩🇪DE-🇺🇸US_593
+      - US_2250
+      - US_2236
+      - LT_1016
+      - Relay_🇺🇸US-🇺🇸US_2957
+      - US_2270
+      - LT_998
+      - Relay_🇭🇰HK-🇭🇰HK_817
+      - LT_1001
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - ZZ_2862
+      - LT_996
+      - LT_1021
+      - US_2252
+      - LT_985
+      - US_2230
+      - LT_1038
+      - ZZ_2861 | 3.68Mb
+      - Relay_🇺🇸US-🇷🇺RU_2953
+      - ZZ_2275 |20.26Mb
+      - ZZ_2274 | 5.62Mb
+      - US_1172 |29.97Mb
+      - US_2256
+      - US_2244
+      - US_2224
+      - US_2247
+      - LT_1043
+      - Relay_🇺🇸US-🇺🇸US_2970
+      - US_1272 | 2.65Mb
+      - US_2228
+      - US_1168 |33.36Mb
+      - SG_1097 |25.60Mb
+      - US_1161 |32.77Mb
+      - US_1162 |32.94Mb
+      - US_1165 |25.91Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US_2478
-      - SG_1210
-      - SG_1204
-      - US_2504
-      - US_2503
-      - SG_1203
-      - US_2486
-      - US_2500
-      - US_2498
-      - US_2489
-      - US_2484
-      - Relay_🇺🇸US-🇺🇸US_3169
-      - Relay_🇺🇸US-🇺🇸US_3160
-      - LT_998
-      - Relay_🇺🇸US-🇺🇸US_3170
-      - Relay_🇺🇸US-🇺🇸US_3176
-      - LT_986
-      - LT_1047
-      - ZZ_4199
-      - LT_993
-      - LT_1003
-      - Relay_🇺🇸US-🇺🇸US_3174
-      - LT_997
-      - LT_987
-      - LT_1000
-      - Relay_🇺🇸US-🇺🇸US_3149
-      - LT_1006
-      - Relay_🇪🇪EE-🇯🇵JP_637
-      - LT_1033
-      - LT_994
-      - ZZ_3288
-      - AU_88
-      - LT_878
-      - LT_1011
-      - Relay_🇺🇸US-🇺🇸US_3162
-      - LT_995
-      - Relay_🇺🇸US-🇺🇸US_3152
-      - LT_1052
-      - LT_1053
-      - LT_1013
-      - LT_1041
-      - Relay_🇺🇸US-🇺🇸US_3146
-      - LT_1048
-      - Relay_🇺🇸US-🇺🇸US_3145
-      - Relay_🇺🇸US-🇺🇸US_3175
-      - LT_985
+      - Relay_🇺🇸US-🇬🇧GB_2978
+      - US_2264
+      - US_2227
+      - ZZ_3863
+      - US_2267
+      - US_2243
+      - Relay_🇹🇼TW-🇹🇼TW_1394
+      - US_2240
       - LT_1044
-      - Relay_🇺🇸US-🇷🇺RU_3126
-      - LT_1028
-      - LT_1043
-      - Relay_🇺🇸US-🇺🇸US_3166
-      - ZZ_3973
-      - LT_1036
-      - LT_1042
-      - Relay_🇬🇧GB-🇬🇧GB_821
-      - LT_960
-      - Relay_🇬🇧GB-🇬🇧GB_817
-      - Relay_🇸🇬SG-🇸🇬SG_1356
-      - US_2712
-      - ZZ_3265
-      - LT_1058
-      - Relay_🇸🇬SG-🇸🇬SG_1361
-      - ZZ_3775
-      - JP_860
-      - LT_1022
-      - LT_1027
-      - Relay_🇸🇬SG-🇸🇬SG_1360
-      - Relay_🇺🇸US-🇯🇵JP_3136
+      - LT_1035
+      - US_2263
+      - US_2260
+      - ZA_2273
+      - LT_1026
+      - US_2245
+      - US_2268
+      - LT_989
+      - LT_1051
+      - Relay_🇬🇧GB-🇬🇧GB_804
+      - US_2242
+      - US_2255
+      - LT_1046
       - LT_1029
-      - LT_1045
-      - LT_1054
-      - AU_85
-      - LT_1057
-      - Relay_🇺🇸US-🇺🇸US_3107
-      - ZZ_3677
-      - AU_89
-      - US_2597
-      - AU_93
-      - ZZ_4205
-      - Relay_🇸🇬SG-🇸🇬SG_1359
-      - RU_1295
-      - Relay_🇺🇦UA-🇺🇦UA_1372
-      - Relay_🇺🇸US-🇺🇸US_3106
-      - RU_1300
-      - LT_1032
-      - ZZ_3778
-      - Relay_🇺🇸US-🇺🇸US_3121
-      - RO_1219
-      - AU_86
-      - KR_864
-      - RU_1279
-      - Relay_🇪🇪EE-🇯🇵JP_638
-      - RO_1220
-      - AU_91
-      - RU_1276
-      - Relay_🇪🇪EE-🇯🇵JP_635
-      - Relay_🇪🇪EE-🇯🇵JP_636
-      - AU_94
-      - Relay_🇦🇺AU-🇦🇺AU_63
-      - AU_96
-      - Relay_🇪🇪EE-🇯🇵JP_634
-      - AU_95
-      - Relay_🇪🇪EE-🇯🇵JP_631
-      - Relay_🇪🇪EE-🇯🇵JP_632
-      - Relay_🇸🇬SG-🇸🇬SG_1357
-      - Relay_🇦🇺AU-🇦🇺AU_62
-      - Relay_🇦🇺AU-🇦🇺AU_60
-      - AU_59
+      - LT_940
+      - LT_1040
+      - US_2238
+      - Relay_🇺🇸US-🇬🇧GB_2973
+      - US_2246
+      - US_2265
+      - US_2225
+      - CA_338
+      - US_2257 | 3.45Mb
+      - US_2239
+      - US_2218 | 2.76Mb
+      - Relay_🇷🇺RU-🇷🇺RU_1343
+      - US_2229
+      - LT_980
+      - US_2261
+      - US_2234
+      - LT_994
+      - LT_1004
+      - US_2269
+      - LT_997
+      - US_2254
+      - Relay_🇩🇪DE-🇺🇸US_593
+      - US_2250
+      - US_2236
+      - LT_1016
+      - Relay_🇺🇸US-🇺🇸US_2957
+      - US_2270
+      - LT_998
+      - Relay_🇭🇰HK-🇭🇰HK_817
+      - LT_1001
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - ZZ_2862
+      - LT_996
+      - LT_1021
+      - US_2252
+      - LT_985
+      - US_2230
+      - LT_1038
+      - ZZ_2861 | 3.68Mb
+      - Relay_🇺🇸US-🇷🇺RU_2953
+      - ZZ_2275 |20.26Mb
+      - ZZ_2274 | 5.62Mb
+      - US_1172 |29.97Mb
+      - US_2256
+      - US_2244
+      - US_2224
+      - US_2247
+      - LT_1043
+      - Relay_🇺🇸US-🇺🇸US_2970
+      - US_1272 | 2.65Mb
+      - US_2228
+      - US_1168 |33.36Mb
+      - SG_1097 |25.60Mb
+      - US_1161 |32.77Mb
+      - US_1162 |32.94Mb
+      - US_1165 |25.91Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_2478
-      - SG_1210
-      - SG_1204
-      - US_2504
-      - US_2503
-      - SG_1203
-      - US_2486
-      - US_2500
-      - US_2498
-      - US_2489
-      - US_2484
-      - Relay_🇺🇸US-🇺🇸US_3169
-      - Relay_🇺🇸US-🇺🇸US_3160
-      - LT_998
-      - Relay_🇺🇸US-🇺🇸US_3170
-      - Relay_🇺🇸US-🇺🇸US_3176
-      - LT_986
-      - LT_1047
-      - ZZ_4199
-      - LT_993
-      - LT_1003
-      - Relay_🇺🇸US-🇺🇸US_3174
-      - LT_997
-      - LT_987
-      - LT_1000
-      - Relay_🇺🇸US-🇺🇸US_3149
-      - LT_1006
-      - Relay_🇪🇪EE-🇯🇵JP_637
-      - LT_1033
-      - LT_994
-      - ZZ_3288
-      - AU_88
-      - LT_878
-      - LT_1011
-      - Relay_🇺🇸US-🇺🇸US_3162
-      - LT_995
-      - Relay_🇺🇸US-🇺🇸US_3152
-      - LT_1052
-      - LT_1053
-      - LT_1013
-      - LT_1041
-      - Relay_🇺🇸US-🇺🇸US_3146
-      - LT_1048
-      - Relay_🇺🇸US-🇺🇸US_3145
-      - Relay_🇺🇸US-🇺🇸US_3175
-      - LT_985
+      - Relay_🇺🇸US-🇬🇧GB_2978
+      - US_2264
+      - US_2227
+      - ZZ_3863
+      - US_2267
+      - US_2243
+      - Relay_🇹🇼TW-🇹🇼TW_1394
+      - US_2240
       - LT_1044
-      - Relay_🇺🇸US-🇷🇺RU_3126
-      - LT_1028
-      - LT_1043
-      - Relay_🇺🇸US-🇺🇸US_3166
-      - ZZ_3973
-      - LT_1036
-      - LT_1042
-      - Relay_🇬🇧GB-🇬🇧GB_821
-      - LT_960
-      - Relay_🇬🇧GB-🇬🇧GB_817
-      - Relay_🇸🇬SG-🇸🇬SG_1356
-      - US_2712
-      - ZZ_3265
-      - LT_1058
-      - Relay_🇸🇬SG-🇸🇬SG_1361
-      - ZZ_3775
-      - JP_860
-      - LT_1022
-      - LT_1027
-      - Relay_🇸🇬SG-🇸🇬SG_1360
-      - Relay_🇺🇸US-🇯🇵JP_3136
+      - LT_1035
+      - US_2263
+      - US_2260
+      - ZA_2273
+      - LT_1026
+      - US_2245
+      - US_2268
+      - LT_989
+      - LT_1051
+      - Relay_🇬🇧GB-🇬🇧GB_804
+      - US_2242
+      - US_2255
+      - LT_1046
       - LT_1029
-      - LT_1045
-      - LT_1054
-      - AU_85
-      - LT_1057
-      - Relay_🇺🇸US-🇺🇸US_3107
-      - ZZ_3677
-      - AU_89
-      - US_2597
-      - AU_93
-      - ZZ_4205
-      - Relay_🇸🇬SG-🇸🇬SG_1359
-      - RU_1295
-      - Relay_🇺🇦UA-🇺🇦UA_1372
-      - Relay_🇺🇸US-🇺🇸US_3106
-      - RU_1300
-      - LT_1032
-      - ZZ_3778
-      - Relay_🇺🇸US-🇺🇸US_3121
-      - RO_1219
-      - AU_86
-      - KR_864
-      - RU_1279
-      - Relay_🇪🇪EE-🇯🇵JP_638
-      - RO_1220
-      - AU_91
-      - RU_1276
-      - Relay_🇪🇪EE-🇯🇵JP_635
-      - Relay_🇪🇪EE-🇯🇵JP_636
-      - AU_94
-      - Relay_🇦🇺AU-🇦🇺AU_63
-      - AU_96
-      - Relay_🇪🇪EE-🇯🇵JP_634
-      - AU_95
-      - Relay_🇪🇪EE-🇯🇵JP_631
-      - Relay_🇪🇪EE-🇯🇵JP_632
-      - Relay_🇸🇬SG-🇸🇬SG_1357
-      - Relay_🇦🇺AU-🇦🇺AU_62
-      - Relay_🇦🇺AU-🇦🇺AU_60
-      - AU_59
+      - LT_940
+      - LT_1040
+      - US_2238
+      - Relay_🇺🇸US-🇬🇧GB_2973
+      - US_2246
+      - US_2265
+      - US_2225
+      - CA_338
+      - US_2257 | 3.45Mb
+      - US_2239
+      - US_2218 | 2.76Mb
+      - Relay_🇷🇺RU-🇷🇺RU_1343
+      - US_2229
+      - LT_980
+      - US_2261
+      - US_2234
+      - LT_994
+      - LT_1004
+      - US_2269
+      - LT_997
+      - US_2254
+      - Relay_🇩🇪DE-🇺🇸US_593
+      - US_2250
+      - US_2236
+      - LT_1016
+      - Relay_🇺🇸US-🇺🇸US_2957
+      - US_2270
+      - LT_998
+      - Relay_🇭🇰HK-🇭🇰HK_817
+      - LT_1001
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - ZZ_2862
+      - LT_996
+      - LT_1021
+      - US_2252
+      - LT_985
+      - US_2230
+      - LT_1038
+      - ZZ_2861 | 3.68Mb
+      - Relay_🇺🇸US-🇷🇺RU_2953
+      - ZZ_2275 |20.26Mb
+      - ZZ_2274 | 5.62Mb
+      - US_1172 |29.97Mb
+      - US_2256
+      - US_2244
+      - US_2224
+      - US_2247
+      - LT_1043
+      - Relay_🇺🇸US-🇺🇸US_2970
+      - US_1272 | 2.65Mb
+      - US_2228
+      - US_1168 |33.36Mb
+      - SG_1097 |25.60Mb
+      - US_1161 |32.77Mb
+      - US_1162 |32.94Mb
+      - US_1165 |25.91Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -940,114 +708,85 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US_2478
-      - SG_1210
-      - SG_1204
-      - US_2504
-      - US_2503
-      - SG_1203
-      - US_2486
-      - US_2500
-      - US_2498
-      - US_2489
-      - US_2484
-      - Relay_🇺🇸US-🇺🇸US_3169
-      - Relay_🇺🇸US-🇺🇸US_3160
-      - LT_998
-      - Relay_🇺🇸US-🇺🇸US_3170
-      - Relay_🇺🇸US-🇺🇸US_3176
-      - LT_986
-      - LT_1047
-      - ZZ_4199
-      - LT_993
-      - LT_1003
-      - Relay_🇺🇸US-🇺🇸US_3174
-      - LT_997
-      - LT_987
-      - LT_1000
-      - Relay_🇺🇸US-🇺🇸US_3149
-      - LT_1006
-      - Relay_🇪🇪EE-🇯🇵JP_637
-      - LT_1033
-      - LT_994
-      - ZZ_3288
-      - AU_88
-      - LT_878
-      - LT_1011
-      - Relay_🇺🇸US-🇺🇸US_3162
-      - LT_995
-      - Relay_🇺🇸US-🇺🇸US_3152
-      - LT_1052
-      - LT_1053
-      - LT_1013
-      - LT_1041
-      - Relay_🇺🇸US-🇺🇸US_3146
-      - LT_1048
-      - Relay_🇺🇸US-🇺🇸US_3145
-      - Relay_🇺🇸US-🇺🇸US_3175
-      - LT_985
+      - Relay_🇺🇸US-🇬🇧GB_2978
+      - US_2264
+      - US_2227
+      - ZZ_3863
+      - US_2267
+      - US_2243
+      - Relay_🇹🇼TW-🇹🇼TW_1394
+      - US_2240
       - LT_1044
-      - Relay_🇺🇸US-🇷🇺RU_3126
-      - LT_1028
-      - LT_1043
-      - Relay_🇺🇸US-🇺🇸US_3166
-      - ZZ_3973
-      - LT_1036
-      - LT_1042
-      - Relay_🇬🇧GB-🇬🇧GB_821
-      - LT_960
-      - Relay_🇬🇧GB-🇬🇧GB_817
-      - Relay_🇸🇬SG-🇸🇬SG_1356
-      - US_2712
-      - ZZ_3265
-      - LT_1058
-      - Relay_🇸🇬SG-🇸🇬SG_1361
-      - ZZ_3775
-      - JP_860
-      - LT_1022
-      - LT_1027
-      - Relay_🇸🇬SG-🇸🇬SG_1360
-      - Relay_🇺🇸US-🇯🇵JP_3136
+      - LT_1035
+      - US_2263
+      - US_2260
+      - ZA_2273
+      - LT_1026
+      - US_2245
+      - US_2268
+      - LT_989
+      - LT_1051
+      - Relay_🇬🇧GB-🇬🇧GB_804
+      - US_2242
+      - US_2255
+      - LT_1046
       - LT_1029
-      - LT_1045
-      - LT_1054
-      - AU_85
-      - LT_1057
-      - Relay_🇺🇸US-🇺🇸US_3107
-      - ZZ_3677
-      - AU_89
-      - US_2597
-      - AU_93
-      - ZZ_4205
-      - Relay_🇸🇬SG-🇸🇬SG_1359
-      - RU_1295
-      - Relay_🇺🇦UA-🇺🇦UA_1372
-      - Relay_🇺🇸US-🇺🇸US_3106
-      - RU_1300
-      - LT_1032
-      - ZZ_3778
-      - Relay_🇺🇸US-🇺🇸US_3121
-      - RO_1219
-      - AU_86
-      - KR_864
-      - RU_1279
-      - Relay_🇪🇪EE-🇯🇵JP_638
-      - RO_1220
-      - AU_91
-      - RU_1276
-      - Relay_🇪🇪EE-🇯🇵JP_635
-      - Relay_🇪🇪EE-🇯🇵JP_636
-      - AU_94
-      - Relay_🇦🇺AU-🇦🇺AU_63
-      - AU_96
-      - Relay_🇪🇪EE-🇯🇵JP_634
-      - AU_95
-      - Relay_🇪🇪EE-🇯🇵JP_631
-      - Relay_🇪🇪EE-🇯🇵JP_632
-      - Relay_🇸🇬SG-🇸🇬SG_1357
-      - Relay_🇦🇺AU-🇦🇺AU_62
-      - Relay_🇦🇺AU-🇦🇺AU_60
-      - AU_59
+      - LT_940
+      - LT_1040
+      - US_2238
+      - Relay_🇺🇸US-🇬🇧GB_2973
+      - US_2246
+      - US_2265
+      - US_2225
+      - CA_338
+      - US_2257 | 3.45Mb
+      - US_2239
+      - US_2218 | 2.76Mb
+      - Relay_🇷🇺RU-🇷🇺RU_1343
+      - US_2229
+      - LT_980
+      - US_2261
+      - US_2234
+      - LT_994
+      - LT_1004
+      - US_2269
+      - LT_997
+      - US_2254
+      - Relay_🇩🇪DE-🇺🇸US_593
+      - US_2250
+      - US_2236
+      - LT_1016
+      - Relay_🇺🇸US-🇺🇸US_2957
+      - US_2270
+      - LT_998
+      - Relay_🇭🇰HK-🇭🇰HK_817
+      - LT_1001
+      - Relay_🇺🇸US-🇺🇸US_2972
+      - ZZ_2862
+      - LT_996
+      - LT_1021
+      - US_2252
+      - LT_985
+      - US_2230
+      - LT_1038
+      - ZZ_2861 | 3.68Mb
+      - Relay_🇺🇸US-🇷🇺RU_2953
+      - ZZ_2275 |20.26Mb
+      - ZZ_2274 | 5.62Mb
+      - US_1172 |29.97Mb
+      - US_2256
+      - US_2244
+      - US_2224
+      - US_2247
+      - LT_1043
+      - Relay_🇺🇸US-🇺🇸US_2970
+      - US_1272 | 2.65Mb
+      - US_2228
+      - US_1168 |33.36Mb
+      - SG_1097 |25.60Mb
+      - US_1161 |32.77Mb
+      - US_1162 |32.94Mb
+      - US_1165 |25.91Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
