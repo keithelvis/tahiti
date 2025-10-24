@@ -63,3 +63,4 @@ tuic://39e06c99-0de0-4739-a1f3-ce2aed90b1f2%3AiWZ3cbxKvQ@158.101.89.218:7443?sni
 anytls://h9ivPP6q%404Rz@45.32.93.59:8543?security=tls&allowInsecure=1&type=tcp#%F0%9F%90%9D%F0%9F%90%9Danytls_Mia
 anytls://ERQ93%404YSa9Ke%40-al@155.248.170.124:9743?security=tls&allowInsecure=1&type=tcp#anytls155
 anytls://B5uh%403QU9uz%4055uZ@158.101.89.218:7946?security=tls&allowInsecure=1&type=tcp#anytls158
+vless://77a33d77-7af9-4c33-9556-d6711becca04@212.129.5.242:33009?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.yahoo.com&fp=chrome&pbk=vQxUlk2tCENv9crfrUAp5JdJOZTKhMH7XnoKLqbAYx0&sid=c0d304da0c4dcadc&type=tcp&headerType=none#VLESS%E8%8A%82%E7%82%B91
