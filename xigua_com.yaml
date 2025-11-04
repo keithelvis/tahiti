@@ -17,11 +17,6 @@ dns:
     fallback: [1.1.1.1, 8.8.8.8]
     fallback-filter: { geoip: true, geoip-code: CN, geosite: [gfw], ipcidr: [240.0.0.0/4], domain: [+.google.com, +.facebook.com, +.youtube.com] }
 proxies:
-    - { name: '剩余流量：3411.56 GB', type: trojan, server: xg.xgacc.top, port: 10111, password: 0c904d21-5715-43a3-9c62-2a6137da6e47, udp: true, sni: bilibili.com, skip-cert-verify: true }
-    - { name: 套餐到期：2026-08-22, type: trojan, server: xg.xgacc.top, port: 10111, password: 0c904d21-5715-43a3-9c62-2a6137da6e47, udp: true, sni: bilibili.com, skip-cert-verify: true }
-    - { name: ★官网(xiguajiasu2.com), type: trojan, server: xg.xgacc.top, port: 10111, password: 0c904d21-5715-43a3-9c62-2a6137da6e47, udp: true, sni: bilibili.com, skip-cert-verify: true }
-    - { name: ★防丢失网站(xiguajiasu8.com), type: trojan, server: xg.xgacc.top, port: 10014, password: 0c904d21-5715-43a3-9c62-2a6137da6e47, udp: true, sni: bilibili.com, skip-cert-verify: true }
-    - { name: ??招募合作推广??请咨询官网客服, type: trojan, server: xg.xgacc.top, port: 10013, password: 0c904d21-5715-43a3-9c62-2a6137da6e47, udp: true, sni: bilibili.com, skip-cert-verify: true }
     - { name: V1-新加坡01|流媒体|GPT, type: trojan, server: xg.xgacc.top, port: 42001, password: 0c904d21-5715-43a3-9c62-2a6137da6e47, udp: true, sni: bilibili.com, skip-cert-verify: true }
     - { name: V1-新加坡02|流媒体|GPT, type: trojan, server: xg.xgacc.top, port: 42002, password: 0c904d21-5715-43a3-9c62-2a6137da6e47, udp: true, sni: bilibili.com, skip-cert-verify: true }
     - { name: V1-新加坡03|流媒体|GPT, type: trojan, server: xg.xgacc.top, port: 42003, password: 0c904d21-5715-43a3-9c62-2a6137da6e47, udp: true, sni: bilibili.com, skip-cert-verify: true }
