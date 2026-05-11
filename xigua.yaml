@@ -22,7 +22,7 @@ proxies:
     - { name: 套餐到期：2026-08-22, type: trojan, server: vpx.xaccg.com, port: 10111, password: ec555c4e-07cc-4949-8a06-32fb60bd4dc7, udp: true, sni: bilibili.com, skip-cert-verify: true }
     - { name: ★官网(xiguajiasu5.com), type: trojan, server: vpx.xaccg.com, port: 10111, password: ec555c4e-07cc-4949-8a06-32fb60bd4dc7, udp: true, sni: bilibili.com, skip-cert-verify: true }
     - { name: ★防丢失网站(xiguajiasu6.com), type: trojan, server: inx.xaccg.com, port: 10014, password: ec555c4e-07cc-4949-8a06-32fb60bd4dc7, udp: true, sni: bilibili.com, skip-cert-verify: true }
-    - { name: ★!!!网不通重新导入订阅(删除老订阅), type: trojan, server: vpx.xaccg.com, port: 10012, password: ec555c4e-07cc-4949-8a06-32fb60bd4dc7, udp: true, sni: bilibili.com, skip-cert-verify: true }
+    - { name: ★网不通重新导入, type: trojan, server: vpx.xaccg.com, port: 10012, password: ec555c4e-07cc-4949-8a06-32fb60bd4dc7, udp: true, sni: bilibili.com, skip-cert-verify: true }
     - { name: ??招募合作推广??请咨询官网客服, type: trojan, server: inx.xaccg.com, port: 10013, password: ec555c4e-07cc-4949-8a06-32fb60bd4dc7, udp: true, sni: bilibili.com, skip-cert-verify: true }
     - { name: V1-新加坡01|流媒体|GPT, type: trojan, server: vpx.xaccg.com, port: 42001, password: ec555c4e-07cc-4949-8a06-32fb60bd4dc7, udp: true, sni: bilibili.com, skip-cert-verify: true }
     - { name: V1-新加坡02|流媒体|GPT, type: trojan, server: inx.xaccg.com, port: 42002, password: ec555c4e-07cc-4949-8a06-32fb60bd4dc7, udp: true, sni: bilibili.com, skip-cert-verify: true }
